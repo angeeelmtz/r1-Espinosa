@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem 10rem;
+}
+
+.badge{
+    color: deeppink;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.heading{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.card-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-pricing{
+    margin: 20px 30px;
+    height: 400px;
+    width: 275px;
+    border-radius: 10px;
+    border: 2px solid deeppink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: .5 ease-in-out;
+    padding: 16px 14px;
+}
+
+.card-pricing i{
+    color: deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 28px;
+    box-shadow: 0 0 34px -12px gray;
+    cursor: pointer;
+}
+
+span{
+    color: deeppink;
+    margin: -10px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.price{
+    font-size: 30px;
+}
+
+.package-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.package-list li{
+    list-style: none;
+    color: gray;
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.get_started_btn{
+    border: 2px solid deeppink;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 25px;
+    background: linear-gradient(45deg, #bc4e9c, #f80759);
+    transition: .3s ease-in-out;
+}
+
+.get_started_btn:hover{
+    background: transparent;
+    color: deeppink;
+}
